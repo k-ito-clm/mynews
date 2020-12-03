@@ -38,7 +38,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach($posts as $news)
+                            @foreach($posts as $profile)
                                 <tr>
                                     <th>{{ $profile->id }}</th>
                                     <td>{{ str_limit($profile->name, 100) }}</td>
